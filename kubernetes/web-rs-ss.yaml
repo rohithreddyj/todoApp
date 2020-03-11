@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: web 
-        image: janakiramm/todo
+        image: rohithreddyj/todo-app
         env:
           - name: "DBHOST"
             value: "mongodb://todo-mongodb-replicaset-0.todo-mongodb-replicaset,todo-mongodb-replicaset-1.todo-mongodb-replicaset,todo-mongodb-replicaset-2.todo-mongodb-replicaset:27017"
